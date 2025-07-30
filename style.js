@@ -38,6 +38,6 @@ toggleBtn.addEventListener('click', () => {
 
   const isDark = document.body.classList.contains('dark-mode');
   themeIcon.src = isDark
-    ? '/Reto 1/images/icon-moon.svg'
-    : '/Reto 1/images/icon-sun.svg';
+    ? 'img/icon-moon.svg'
+    : 'img/icon-sun.svg';
 });
